@@ -1,4 +1,5 @@
 ## ZoneChat: Docker edition
+More on ZoneChat: [https://metauni.org/posts/make-your-own/make-your-own](https://metauni.org/posts/make-your-own/make-your-own)
 
 ### Setup
 1. Open `start.sh` and set your Discord bot secret.
