@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ZoneChat"
+version = "2.0"
+description = "Discord bot for moving users between voice channels according to roblox zones."
+authors = ["Billy Price <billyprice98is@gmail.com>","Eleanor McMurtry <elem0@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+"discord.py" = "^1.3.4"
+"ruamel.yaml" = "^0.16.12"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
