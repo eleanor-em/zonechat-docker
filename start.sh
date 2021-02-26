@@ -23,6 +23,7 @@ if [ $HAS_VOLUME -eq 0 ]; then
 fi
 if [ $HAS_VOLUME -ne 0 ]; then
     echo "Removing existing container..."
+    sudo docker rm --force zonechat
 fi
 
 sudo docker run -v zonechat-data:/data -e DISCORD_BOT_SECRET=$DISCORD_BOT_SECRET --name zonechat -d zonechat
